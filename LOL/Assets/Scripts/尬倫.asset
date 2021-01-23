@@ -9,32 +9,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54398edfc37d8a94483704a3f8ec9014, type: 3}
+  m_Script: {fileID: 11500000, guid: 07112f83c4553194d9ae604318e12c8c, type: 3}
   m_Name: "\u5C2C\u502B"
   m_EditorClassIdentifier: 
   hp: 800
-  mp: 0
-  speed: 0
-  attack: 0
-  attackCD: 0
+  mp: 400
+  speed: 10
+  attack: 93
+  attackCD: 0.1
   skills:
-  - name: "\u6280\u80FD1"
-    attack: 10
-    cost: 10
+  - name: 1
+    attack: 20
+    cost: 5
     image: {fileID: 21300000, guid: 7290141889de5c5418c779c5793fc2b8, type: 3}
-    cd: 2.1
-  - name: "\u6280\u80FD2"
-    attack: 40
-    cost: 40
+    cd: 0
+  - name: 
+    attack: 22.2
+    cost: 35.1
     image: {fileID: 21300000, guid: c66b73964d3edd146a5249f919123d0f, type: 3}
-    cd: 3.9
-  - name: "\u6280\u80FD3"
-    attack: 60
-    cost: 60
+    cd: 1.29
+  - name: 
+    attack: 13.3
+    cost: 29.6
     image: {fileID: 21300000, guid: 6169bb80b0407c340b8c6d0ce2ffe44b, type: 3}
-    cd: 6
-  - name: "\u5927\u7D55"
+    cd: 4.74
+  - name: 
     attack: 80
-    cost: 100
+    cost: 80
     image: {fileID: 21300000, guid: 60eabd8f18a32d448b84b4e751fe7707, type: 3}
-    cd: 8
+    cd: 6.18
